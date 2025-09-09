@@ -1,0 +1,6 @@
+Hi Thomas, I found that, since 2025, this extension is preventing, on MAC M4 Seqoia, to customize the top toolbar of SkUp. The icons does start to dance but the panel does not appear.
+I found that by using diverse set of plugins and to confirm, I finally started afresh with no plugin folder. Once Skup opened, I checked and saw that customization was fine.
+Then I loaded selectiion_toys from the warehouse. And indeed the customization was broken.
+
+I had seen this behaviour when i had a duplicate ui:command in the menu of one of my plugins:
+I had this line twice : cmd5 = UI::Command.new(LH['Interior Windows']) do.
